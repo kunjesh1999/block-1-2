@@ -386,7 +386,7 @@ body {
     background-color: #01693a;
     /* border: #01693a; */
 }
-.icon-border:hover{
+.icon-border:hover {
     border-color: #01693a;
     /* background-color: #01693a; */
 
@@ -425,7 +425,7 @@ body {
     z-index: 1;
 }
 
-.fruit-details {
+/* .fruit-details {
     display: block;
     text-align: center;
 }
@@ -439,7 +439,32 @@ body {
 
 .fruit-name {
     margin: 0px;
-    /* font-size: 12px; */
+  
     color: #222222;
     font-weight: 800;
+} */
+.fruit-details {
+    display: block;
+    text-align: center;
 }
+.fruit-details a{
+text-decoration: none;
+}
+.fruit-name {
+    margin: 0px;
+    color: #222222;
+    font-weight: 800;
+    transition: 0.1s ease ;
+}
+.fruit-details a .fruit-name:hover {
+    color: #01693a;
+}
+.fruit-price {
+    color: #01693a;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 25px 0px 5px 0px;
+}
+
+
+
