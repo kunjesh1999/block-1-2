@@ -9,7 +9,7 @@ body {
     padding: 6px 0px;
 }
 
-.info-label-inner {
+.info-label .info-label-inner {
     display: flex;
     justify-content: space-between;
 }
@@ -44,7 +44,7 @@ body {
     margin-right: 15px;
 }
 
-#shipping {
+.shipping {
     margin-right: 0px;
 }
 
